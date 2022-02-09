@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat Halaman Baru</title>
+	<title>Rangkuman Materi</title>
 </head>
 <body>
-<h1>Hello World</h1>
+<h2>Materi yang sudah dipelajari dalam Git </h2>
+<p>Berikut ini merupakan perintah yang ada didalam git :</p>
+<ol>
+	<li>git init yang berfungsi untuk menginisialisi repositori yang akan digunakan pada folder local</li>
+	<li>git config yang berfungsi untuk konfigurasi git. Pada git config terdapat dua konfigurasi yaitu :
+		<ul>
+			<li>config local yang berfungsi mengatur pengaturan email dan username local</li>
+			<li>config global yang berfungsi mengatur pengaturan ke server online</li>
+		</ul></li>
+	<li>git add berfungsi untuk memasukkan file ke dalam ruang tunggu sebelum dicommit</li>
+	<li>git commit berfungsi untuk mencatat perubahan file</li>
+	<li>git status berfungsi untuk mengetahui status file yg ada pada repositori git</li>
+	<li>git log berfungsi untuk menampilkan riwayat perubahan yang sudah dilakukan pada repositori</li>
+	<li>git remote add origin berfungsi untuk interaksi dengan repositori yang ada di server</li>
+	<li>git push berfungsi untuk mengirim perubahan pada repositori local ke server</li>
+	<li>git pull berfungsi untuk menerima perubahan yang dilakukan dari server ke repositori local</li>
+	<li>git clone berfungsi untuk mengcopy repositori server ke repositori local</li>
+	<li>git branch berfungsi untuk melihat daftar branch di repositori local</li>
+	<li>git branch nama berfungsi untuk membuat branch baru</li>
+	<li>git checkout nama_branch berfungsi untuk pindah ke branch lain tersebut</li>
+	<li>git merge nama_branch berfungsi untuk mencopy perubahan yang sudah dibuat di branch lain</li>
+	<li>git branch -d nama_branch berfungsi untuk hapus branch</li>
+</ol>
+<p>Selain perintah git, kita juga mempelajari tentang conflict ketika akan commit.</p>
+<p>Ketika ada perubahan dari file yang sama dari dua atau lebih branch maka akan mengalami conflict ketika dicommit ke repositori git. Untuk menyelesaikan permasalahan tersebut maka yang bisa dilakukan adalah membuka file yang conflict dan mengkoreksi bagian yang membuat conflict tersebut. Selain membuka file secara manual, kita juga bisa menggunakan aplikasi diffmerge yang akan menampilkan bagian mana saja yang menyebabkan conflict dan kita bisa mengubah bagian tersebut supaya bisa di commit.</p>
 </body>
 </html>
